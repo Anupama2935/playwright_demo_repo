@@ -2,7 +2,12 @@
   "name": "playwright-google-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": { },
+  "scripts": {
+    "test": "playwright test",
+             "test:google" : "playwright test tests/googleTest.spec.js",
+             "test:headed": "playwright test --headed",
+             "test:report": "playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
